@@ -1,0 +1,122 @@
+:root{
+    --bgcolor-1: #520e1ab9;
+}
+.rec {
+    width: 103vw;
+    height: 71vh;
+    background-image: linear-gradient(to bottom ,#4788C7,#2F3C64) ;
+    position:absolute;
+    right:-1.5vw;
+    top: 4vh;
+    transform: rotateZ(-11deg);
+    background-size: cover;
+    z-index: -1;
+   
+  }
+body {
+   
+    width: 100vw;
+    height: 100vh;
+    font-family: system-ui;
+    overflow: hidden;
+
+
+}
+.clear {
+    clear: both;
+}
+nav{
+   
+    
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    
+    
+}
+nav ul li {
+  
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 4rem;
+     font-size: large;
+    
+
+}
+nav ul li a {
+    color:#eee;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    border:2px solid transparent;
+}
+nav ul li a:hover{
+    color: var(--bgcolor-1);
+   /* font-size: 110%;*/
+   
+
+   
+
+}
+nav ul {
+    padding-right: 00.8rem;
+    border:2px solid transparent;
+   margin: 9px;
+
+    
+}
+.sel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-top: 85px;
+    
+   
+}
+   article {
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       background-color:white;
+       width: 224.8px;
+       align-content: space-around;
+       height: 339.58px;
+       text-align: center;
+       text-transform: capitalize;
+       border: solid rgba(211, 218, 224, 0.384);
+       
+   }
+   span {
+       text-transform: uppercase;
+       
+       font-size: 33px;
+
+   }
+   .letter{
+       text-align: center;
+       font-weight: 600;
+       color: white;
+       line-height: 6vh;
+       margin-top: 55.6px;
+       font-size: 21px;
+   }
+  .try {
+      text-decoration: none;
+      border-radius: 15px;
+      background-color: rgb(69, 90, 158);
+      color: white;
+        padding: 12px 31px;
+        margin: 9px;
+   }
+   figcaption {
+       width: max-content;
+       font-weight: 550;
+       
+   }
+   .art-des {
+       margin: 0 26px;
+   }
+  

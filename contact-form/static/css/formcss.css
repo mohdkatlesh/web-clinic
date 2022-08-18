@@ -1,0 +1,27 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.head1 {
+  margin-top: 50px;
+  --target: 100%;
+  width: 100%;
+  background: rgb(232, 235, 241);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  text-align: center;
+  letter-spacing: -0.02em;
+  width: 100%;
+  display: block;
+  line-height: 0.95;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="../static/css/cntcss.css" />
+  </head>
+
+  <body>
+    <div class="errors"></div>
+    <main>
+      <div class="container">
+        <h2>Consult With A Doctor</h2>
+
+        <form class="contact-form" action="/form" method="POST" >
+          <input type="text" name="name" placeholder="full name" />
+          <input type="text" name="mail" placeholder="your e-mail" />
+          <input type="text" name="phone" placeholder="your phone number" />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            style="height: 200px"
+          ></textarea>
+          
+          <input type="file" id="img" name="img" accept="image/*" />
+          <button type="submit" name="submit">send email</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

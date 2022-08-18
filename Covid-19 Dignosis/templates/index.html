@@ -1,0 +1,51 @@
+
+    <html>
+
+        <head>
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+            <title>covid-19 dignosis</title>
+            <meta name="theme-color" content="#ffffff">
+        </head>
+    
+    <body>
+        <div class="very_main">
+            <section class="home">
+            <nav>
+                <ul>
+                    <li> <a href="#" target="HOME" title="GO TO HOME">home</a> </li>
+                    <li> <a href="#" target="Patient services" title="GO TO Patient services">patient services</a> </li>
+                    <li> <a href="#" target="About us" title=" GO TO About us">about us</a> </li>
+                    <li> <a href="#" target="contact" title=" GO TO contact">contact</a> </li>
+                </ul>
+            </nav>
+            {% extends "base.html" %} {% block content %}
+            
+                <h2>Upload your x-ray image</h2>
+                <form id="upload-file" method="post" enctype="multipart/form-data">
+                    <label for="imageUpload" class="upload-label">
+                        Select an image
+                    </label>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                </form>
+
+                <div class="image-section" style="display:none;">
+                    <div class="img-preview">
+                        <div id="imagePreview">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="upload-label" id="btn-predict">Test your x_Ray </button>
+                    </div>
+                </div>
+
+                <div class="loader" style="display:none;"></div>
+
+                <h3 id="result">
+                    <span> </span>
+                </h3>
+            
+                
+                {% endblock %}
+</body>
+</html>

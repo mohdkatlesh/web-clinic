@@ -1,0 +1,219 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'tajwal';
+}
+
+nav {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+nav ul li {
+
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 4rem;
+    margin-bottom: 000.8rem;
+    margin-top: 000.8rem;
+    font-size: large;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    border: 2px solid transparent;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.container input {
+    display: inline-block;
+    padding: 7px 25px;
+    margin: 0 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4788C7;
+    color: #ffffff;
+
+}
+
+.container h2,h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 200%;
+}
+
+.container h3 {
+    font-size: 150%;
+}
+
+.container button {
+
+    background-color: #4788C7;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 90px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #4788C7,
+        0 0 25px #4788C7,
+        0 0 50px #4788C7,
+        0 0 100px #4788C7;
+}
+
+/* the edit section */
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label {
+    /* display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 12px 28px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid #cccccc; */
+
+
+    background-color: #4788C7;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0px 90px;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+
+
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.very_main {
+    margin: auto;
+    text-align: center;
+}
+
+.final_word {
+    position: relative;
+    margin-top: 12px;
+}
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #cccccc;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+/* the end of edit section */
+
+
+/* for animated backgrond */
+
+body {
+    color: #070707;
+    background: #d0d2da;
+    background: fixed linear-gradient(to bottom right, #e1e2e7, #ffffff8a);
+}
+
+.network-background-canvas {
+    background: rgba(159, 153, 153, 0.25);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}

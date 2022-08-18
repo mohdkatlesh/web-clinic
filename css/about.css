@@ -1,0 +1,114 @@
+.home {
+    background: #fff url(../img/about.jpg) no-repeat;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.859;
+    background-size: cover;
+    background-position: 0px -95px;
+}
+
+nav {
+
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+
+}
+
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 4rem;
+    font-size: large;
+
+
+}
+
+nav ul li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    border: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    color: var(--bgcolor-1);
+    /* font-size: 110%;*/
+
+
+
+
+}
+
+nav ul {
+    padding-right: 00.8rem;
+    border: 2px solid transparent;
+    margin: 9px;
+
+
+}
+
+.maid {
+    width: 100%;
+    height: 300px;
+    transform: matrix(1, -0.07, 0, 1, 0, -86);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.who {
+    transform: skewY(0.07rad);
+    margin-left: 160px;
+
+    font-size: 25px;
+
+}
+
+.goal {
+    transform: skewY(0.07rad);
+    margin-top: 73px;
+    margin-left: 283px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.end {
+    margin-bottom: 65px;
+    padding-left: 110px;
+    line-height: 1.4;
+    background-color: #bbbebf36;
+
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top: 241px;
+    font-weight: 600;
+}
+
+span {
+    font-size: 27px;
+}
+
+body {
+    font-family: system-ui
+}
