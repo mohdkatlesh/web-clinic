@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 
 
-model = load_model('kaggle', custom_objects={'tf': tf})
+model = load_model('Chest Dignosis/kaggle_seresnet.h5', custom_objects={'tf': tf})
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 def preprocess_image(image, target_size):
