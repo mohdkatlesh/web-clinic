@@ -9,13 +9,12 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import model_from_json
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
-from keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.models import load_model
 import tensorflow as tf
 import numpy as np
 import h5py
 from PIL import Image
-import PIL
 import os
 
 
@@ -23,7 +22,7 @@ app = Flask(__name__)
 
 
 
-model = load_model("kaggle_seresnet.h5", custom_objects={'tf': tf})
+model = load_model('kaggle', custom_objects={'tf': tf})
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 def preprocess_image(image, target_size):
