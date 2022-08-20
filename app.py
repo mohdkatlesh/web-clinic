@@ -1,6 +1,3 @@
-
-from ctypes.wintypes import tagMSG
-from tkinter import Y
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 from tensorflow.keras.preprocessing.image import img_to_array
