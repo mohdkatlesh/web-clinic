@@ -19,6 +19,7 @@
                     <li> <a href="#" target="contact" title=" GO TO contact">contact</a> </li>
                 </ul>
             </nav>
+            
             {% extends "base.html" %} {% block content %}
             
                 <h2>Upload your x-ray image</h2>
@@ -35,11 +36,13 @@
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="upload-label" id="btn-predict">Test your x_Ray </button>
+                        <button type="button" class="upload-label" id="btn-covid">Test your x_Ray </button>
                     </div>
                 </div>
 
-                <div class="loader" style="display:none;"></div>
+                <div class="loader" style="display:none;">
+
+                </div>
 
                 <h3 id="result">
                     <span> </span>
@@ -47,5 +50,6 @@
             
                 
                 {% endblock %}
+            
 </body>
 </html>

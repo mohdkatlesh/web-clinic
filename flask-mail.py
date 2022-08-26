@@ -1,19 +1,10 @@
-from flask import Flask, render_template, request
-from flask_mail import Mail,Message
 
 
 
-app = Flask(__name__)
 
 
-app.config['MAIL_SERVER']='smtp.gmail.com'
-app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = 'e.clinic.syria@gmail.com'
-app.config['MAIL_PASSWORD'] = 'sbsfytnxgmvrcijh'
-app.config['MAIL_USE_TLS'] = False
-app.config['MAIL_USE_SSL'] = True
-app.config['MAIL_DEFAULT_SENDER'] = 'e.clinic.syria@gmail.com'
-mail = Mail(app)
+
+
 
 @app.route('/')
 def contact():

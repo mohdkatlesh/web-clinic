@@ -11,15 +11,10 @@
     <body>
         <div class="very_main">
             <section class="home">
-            <nav>
-                <ul>
-                    <li> <a href="#" target="HOME" title="GO TO HOME">home</a> </li>
-                    <li> <a href="#" target="Patient services" title="GO TO Patient services">patient services</a> </li>
-                    <li> <a href="#" target="About us" title=" GO TO About us">about us</a> </li>
-                    <li> <a href="#" target="contact" title=" GO TO contact">contact</a> </li>
-                </ul>
-            </nav>
-            {% extends "base.html" %} {% block content %}
+
+            {% extends "base.html" %} 
+
+            {% block content %}
             
                 <h2>Upload your x-ray image</h2>
                 <form id="upload-file" method="post" enctype="multipart/form-data">

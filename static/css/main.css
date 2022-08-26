@@ -7,8 +7,6 @@
 }
 
 nav {
-
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,8 +14,6 @@ nav {
 }
 
 nav ul li {
-
-
     list-style-type: none;
     display: inline-block;
     margin-right: 4rem;
