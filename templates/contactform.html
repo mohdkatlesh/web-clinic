@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link href="{{ url_for('static', filename='css/cntcss.css') }}" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <div class="errors"></div>
+    <main>
+      <div class="container">
+        <h2>Consult With A Doctor</h2>
+
+        <form class="contact-form" action="/form" method="POST" >
+          <div class="user-box">
+          <input type="text" name="name"  required=""/>
+          <label>Full Nmae</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="mail" required=""/>
+          <label>Your E-mail</label>
+          
+        </div>
+        <div class="user-box">
+          <input type="text" name="phone" required=""/>
+          <label>Your Phone Number</label>
+
+        </div>
+        <div class="user-box">
+          <textarea
+            name="message"
+            required=""
+            style="height: 200px"
+          ></textarea>
+          <label>Your Message</label>
+        </div>
+        <div class="uplode">
+          <input type="file" id="img" name="img" accept="image/*" />
+        </div>
+          <button type="submit" name="submit">Send the E-mail</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

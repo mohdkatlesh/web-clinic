@@ -1,0 +1,126 @@
+:root{
+    --bgcolor-1: #520e1ab9;
+}
+
+body {
+   
+    width: 100vw;
+    height: 100vh;
+    font-family: system-ui;
+    overflow: hidden;
+    background: #aebecd;
+
+}
+.clear {
+    clear: both;
+}
+nav{
+   
+    
+    display: flex;
+    justify-content:flex-end;
+    flex-direction:row;
+    
+    
+}
+nav ul li {
+  
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 4rem;
+     font-size: large;
+    
+
+}
+nav ul li a {
+    color:#eee;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.6s;
+    border:2px solid transparent;
+}
+nav ul li a:hover{
+    color: var(--bgcolor-1);
+   /* font-size: 110%;*/
+   
+
+   
+
+}
+nav ul {
+    padding-right: 00.8rem;
+    border:2px solid transparent;
+   margin: 9px;
+
+    
+}
+
+.sel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-top: 85px;
+    
+   
+}
+   article {
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-evenly;
+       background: rgba(0, 0, 0, 0.5);
+       width: 224.8px;
+       align-content: space-around;
+       height: 339.58px;
+       text-align: center;
+       text-transform: capitalize;
+       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+       border-radius: 10px; 
+       /* border: solid rgba(211, 218, 224, 0.384); */
+
+       /* position: absolute;
+       top: 50%;
+       left: 50%;
+       width: 400px;
+       padding: 40px;
+       transform: translate(-50%, -50%);
+       background: rgba(0, 0, 0, 0.5);
+       box-sizing: border-box;
+       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+       border-radius: 10px; */
+       
+   }
+   span {
+       text-transform: uppercase;
+       
+       font-size: 33px;
+
+   }
+   .letter{
+       text-align: center;
+       font-weight: 600;
+       color: white;
+       line-height: 6vh;
+       margin-top: 55.6px;
+       font-size: 21px;
+   }
+  .try {
+      text-decoration: none;
+      border-radius: 15px;
+      background-color: rgb(69, 90, 158);
+      color: white;
+        padding: 12px 31px;
+        margin: 9px;
+   }
+   figcaption {
+       width: max-content;
+       font-weight: 550;
+       color: #fff;
+   }
+   .art-des {
+       margin: 0 26px;
+       color: #fff;
+   }
+  
