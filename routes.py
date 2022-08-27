@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 import os
 import numpy as np
 
-
+from app import mail
 #main-page
 @app.route("/")
 def services():
@@ -68,9 +68,6 @@ def form():
                         phone = phone,
                         message = message,
                         img = img)
-
-
-
 
 
 #Chest-dignosis

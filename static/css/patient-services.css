@@ -8,7 +8,7 @@ body {
     height: 100vh;
     font-family: system-ui;
     overflow: hidden;
-
+    background: #aebecd;
 
 }
 .clear {
@@ -54,18 +54,7 @@ nav ul {
 
     
 }
-.rec {
-    width: 103vw;
-    height: 71vh;
-    background-image: linear-gradient(to bottom ,#4788C7,#2F3C64) ;
-    position:absolute;
-    right:-1.5vw;
-    top: 4vh;
-    transform: rotateZ(-11deg);
-    background-size: cover;
-    z-index: -1;
-   
-  }
+
 .sel {
     display: flex;
     flex-direction: row;
@@ -81,13 +70,26 @@ nav ul {
        justify-content: center;
        align-items: center;
        justify-content: space-evenly;
-       background-color:white;
+       background: rgba(0, 0, 0, 0.5);
        width: 224.8px;
        align-content: space-around;
        height: 339.58px;
        text-align: center;
        text-transform: capitalize;
-       border: solid rgba(211, 218, 224, 0.384);
+       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+       border-radius: 10px; 
+       /* border: solid rgba(211, 218, 224, 0.384); */
+
+       /* position: absolute;
+       top: 50%;
+       left: 50%;
+       width: 400px;
+       padding: 40px;
+       transform: translate(-50%, -50%);
+       background: rgba(0, 0, 0, 0.5);
+       box-sizing: border-box;
+       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+       border-radius: 10px; */
        
    }
    span {
@@ -115,9 +117,10 @@ nav ul {
    figcaption {
        width: max-content;
        font-weight: 550;
-       
+       color: #fff;
    }
    .art-des {
        margin: 0 26px;
+       color: #fff;
    }
   

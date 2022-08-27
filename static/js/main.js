@@ -66,7 +66,7 @@ $(document).ready(function () {
         // Make prediction by calling api /predict
         $.ajax({
             type: 'POST',
-            url: '/predict',
+            url: '/chest',
             data: form_data,
             contentType: false,
             cache: false,

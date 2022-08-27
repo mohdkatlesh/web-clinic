@@ -4,13 +4,11 @@
         <head>
             <meta name="viewport" content="width-device-width, initial-scale=1.0">
             <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
-            <title>X-Ray</title>
+            <title>Chest Diagnosis</title>
             <meta name="theme-color" content="#ffffff">
         </head>
     
     <body>
-        <div class="very_main">
-            <section class="home">
 
             {% extends "base.html" %} 
 
@@ -25,11 +23,11 @@
                 </form>
 
                 <div class="image-section" style="display:none;">
-                    <div class="img-preview">
+                    <div class="img-preview" >
                         <div id="imagePreview">
                         </div>
                     </div>
-                    <div>
+                    <div class="btn-test">
                         <button type="button" class="upload-label" id="btn-predict">Test your x_Ray </button>
                     </div>
                 </div>
