@@ -43,15 +43,22 @@ def preprocess_image(image, target_size):
 
 #chest_prediction
 def model_predict(img_path, model):
+
 	IMG = load_img(img_path).convert('L')
+	print(type(IMG))
+
 	IMG_ = IMG.resize((600, 600))
+	print(type(IMG_))
 	IMG_ = np.asarray(IMG_)
+	print(IMG_.shape)
 	IMG_ = np.true_divide(IMG_, 255)
+	print(type(IMG_), IMG_.shape)
 	IMG_ = preprocess_image(IMG, target_size=(600,600))
 
-	chest_model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer='rmsprop')
-	prediction = chest_model.predict(IMG_)
+	print(model)
 
+	model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer='rmsprop')
+	prediction = model.predict(IMG_)
 	return prediction
 
 #covid_prediction
