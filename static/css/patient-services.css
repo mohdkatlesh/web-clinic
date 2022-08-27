@@ -109,8 +109,8 @@ nav ul {
   .try {
       text-decoration: none;
       border-radius: 15px;
-      background-color: rgb(69, 90, 158);
-      color: white;
+      background-color: rgb(84, 102, 161);
+      color: rgb(0, 0, 0);
         padding: 12px 31px;
         margin: 9px;
    }
