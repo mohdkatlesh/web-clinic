@@ -65,7 +65,8 @@ def model_predict(img_path, model):
 def model_predict(img_path, covid_model):
 
     IMG = load_img(img_path).convert('L')
-    IMG_ = IMG.resize((600, 600))
+    IMG_ = IMG.resize((600,
+     600))
     IMG_ = np.asarray(IMG_)
     IMG_ = np.true_divide(IMG_, 255)
     IMG_ = IMG_.reshape(1, 600, 600, 1)

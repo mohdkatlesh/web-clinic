@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+
 .home {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'tajwal';
+    font-family: 'Cormorant', serif;
 }
 
 nav {
@@ -41,9 +44,9 @@ nav ul li a {
     width: 800px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, .5);
+    background: #53838b;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    box-shadow: 0 15px 25px rgba(187, 178, 178, 0.6);
     border-radius: 10px;
 }
 
@@ -53,15 +56,15 @@ nav ul li a {
     margin: 0 25px;
     cursor: pointer;
     border-radius: 5px;
-    background-color: #4788C7;
-    color: #ffffff;
+    background-color: #38150f86;
+    color: #d3cdc6;
 
 }
 
 .container h2,h3 {
     margin: 0 0 30px;
     padding: 0;
-    color: #fff;
+    color: #d3cdc6;
     text-align: center;
     font-size: 200%;
 }
@@ -71,9 +74,9 @@ nav ul li a {
 }
 
 .container button {
-    background-color: #4788C7;
+    background-color: #38150f86;
     border: none;
-    color: white;
+    color: #d3cdc6;
     padding: 8px 25px;
     text-align: center;
     text-decoration: none;
@@ -86,10 +89,10 @@ nav ul li a {
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #4788C7,
-        0 0 25px #4788C7,
-        0 0 50px #4788C7,
-        0 0 100px #4788C7;
+    box-shadow: 0 0 5px #38150f,
+        0 0 25px #38150f,
+        0 0 50px #38150f,
+        0 0 100px #38150f;
 }
 
 /* the edit section */
@@ -99,9 +102,9 @@ input[type="file"] {
 }
 
 .upload-label {
-    background-color: #4788C7;
+    background-color: #38150f86 ;
     border: none;
-    color: white;
+    color: #d3cdc6;
     padding: 8px 25px;
     text-align: center;
     text-decoration: none;
@@ -118,9 +121,7 @@ input[type="file"] {
 
 .loader {
     border: 8px solid #f3f3f3;
-    /* Light grey */
-    border-top: 8px solid #3498db;
-    /* Blue */
+    border-top: 8px solid #38150f86;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -195,7 +196,7 @@ input[type="file"] {
 body {
     color: #070707;
     background: #d0d2da;
-    background: fixed linear-gradient(to bottom right, #e1e2e7, #ffffff8a);
+    background: #859ca2;
 }
 
 .network-background-canvas {
@@ -207,3 +208,4 @@ body {
     height: 100%;
     z-index: -1000;
 }
+

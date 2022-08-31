@@ -1,6 +1,4 @@
-:root{
-    --bgcolor-1: #520e1ab9;
-}
+
 
 body {
    
@@ -8,7 +6,7 @@ body {
     height: 100vh;
     font-family: system-ui;
     overflow: hidden;
-    background: #aebecd;
+    background: #859ca2;
 
 }
 .clear {
@@ -70,7 +68,7 @@ nav ul {
        justify-content: center;
        align-items: center;
        justify-content: space-evenly;
-       background: rgba(0, 0, 0, 0.5);
+       background: #53838b;
        width: 224.8px;
        align-content: space-around;
        height: 339.58px;
@@ -101,7 +99,7 @@ nav ul {
    .letter{
        text-align: center;
        font-weight: 600;
-       color: white;
+       color: #38150f ;
        line-height: 6vh;
        margin-top: 55.6px;
        font-size: 21px;
@@ -109,18 +107,18 @@ nav ul {
   .try {
       text-decoration: none;
       border-radius: 15px;
-      background-color: rgb(84, 102, 161);
-      color: rgb(0, 0, 0);
+      background-color: #38150f86  ;
+      color: #d3cdc6;
         padding: 12px 31px;
         margin: 9px;
    }
    figcaption {
        width: max-content;
        font-weight: 550;
-       color: #fff;
+       color: #d3cdc6;
    }
    .art-des {
        margin: 0 26px;
-       color: #fff;
+       color: #d3cdc6;
    }
   
