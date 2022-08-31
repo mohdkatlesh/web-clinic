@@ -23,8 +23,7 @@
 ## Creating the Deep Learning Models
 ### The model was created based on the Convolution neural network) CNN by using the Residual Network.
 
-## The source code for creating the model on Kaggle:
- [Chest X-Ray Notebook](https://www.kaggle.com/code/mohammadkatlish/chest-x-ray-image)
+## The source code for creating the model on Kaggle: [Chest X-Ray Notebook](https://www.kaggle.com/code/mohammadkatlish/chest-x-ray-image)
 
 # The Web Application and The Services we Provide 
 ## We could not able to upload it to a live web server because of the size of the models
