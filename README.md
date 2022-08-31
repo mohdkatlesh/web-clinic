@@ -16,7 +16,7 @@
 
 
 ## Pre-processing the Dataset 
-#### The dataset was a row data and we need to organize the data before feed it into the model:
+#### The dataset was a row of data and we need to organize the data before feeding it into the model:
 ![alt text](/img/process-dataset.png)
 
 
@@ -26,7 +26,8 @@
 ## The source code for creating the model on Kaggle:
  [Chest X-Ray Notebook](https://www.kaggle.com/code/mohammadkatlish/chest-x-ray-image)
 
-# The Web Application and The Services we Procide (We could not able to uplode it to a live web server because of the size of the models)
+# The Web Application and The Services we Provide 
+## We could not able to upload it to a live web server because of the size of the models
 - Chest X-Ray diagnosis for the 14 labels in the Chest finding.
 - Covid-19 X-Ray image diagnosis.
 - Online Consulting 
@@ -34,10 +35,10 @@
 
 
 # Chest & Covid X-Ray Diagnosis 
-### In these services the user can uplode the x-ray image and the model can predict the finding in the image based on the data that feed to in the training;
-### In the two services the sane stratagy we can see:
-## uploding the image
-![uplod](/img/uplode.png)
+### In these services the user can upload the x-ray image and the model can predict the finding in the image based on the data that feed to in the training;
+### In the two services the sane strategy we can see:
+## uploading the image
+![uplod](/img/upload.png)
 ## Start the model to predict the status of the x-ray image
 ### Fot Chest X-ray 
 ![chest](/img/chest.png)
@@ -46,5 +47,8 @@
 
 
 # Online Consulting 
-### After the user diagnose the condition, if he need to cosult a doctor for the condation or the sate, he just need to fill a form with the information and eamil or phone number, the data will be sent to the doctor by email and he will resopnse as soon as posible 
+### After the user diagnose the condition, if he needs to consult a doctor for the condition or the state, he just needs to fill a form with the information and email or phone number
 ![email](/img/email.png)
+
+### the data will be sent to the doctor by email and he will response as soon as possible.
+
