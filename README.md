@@ -5,4 +5,9 @@
 #### Chest X-ray exams are one of the most frequent and cost-effective medical imaging examinations available. However, clinical diagnosis of a chest X-rays can be challenging and sometimes more difficult than diagnosis via chest CT imaging. 
 
 ## The Dataset 
-#### This NIH  Chest X-ray Dataset [paper](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community) is comprised of 112,120 X-ray images with disease labels from 30,805 unique patients. To create these labels, the authors used Natural Language Processing to text-mine disease classifications from the associated radiological reports. The labels are expected to be >90% accurate and suitable for weakly-supervised learning. The original radiology reports are not publicly available but you can find more details on the labeling process in this Open Access paper
+#### This NIH  Chest X-ray Dataset [paper](https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community) is comprised of 112,120 X-ray images with disease labels from 30,805 unique patients. To create these labels.
+
+## Pre-processing the Dataset 
+#### The dataset was a row data and we need to organize the data before feed it into the model:
+![alt text](/img/process-dataset.png)
+### Creating the Deep Learning Models
